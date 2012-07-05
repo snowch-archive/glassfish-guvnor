@@ -3,5 +3,7 @@
 *.ipr
 *.iws
 
+/_buildr.rb
+
 # Artifacts downloaded
 /downloads

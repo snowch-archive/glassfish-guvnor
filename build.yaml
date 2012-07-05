@@ -1,0 +1,4 @@
+repositories:
+  release_to:
+    url: http://repo.fire.dse.vic.gov.au/content/repositories/releases/
+    username: upload
