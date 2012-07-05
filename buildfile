@@ -18,6 +18,6 @@ define "guvnor-distribution" do
   project.group = "au.gov.vic.dse.fire.org.drools"
 
   package(:war).tap do |war|
-    war.merge(bean_jar).exclude("WEB-INF/lib/javassist-3.14.0-GA.jar")
+    war.merge(bean_jar).exclude("WEB-INF/lib/javassist-3.14.0-GA.jar").exclude("WEB-INF/web.xml")
   end
 end
