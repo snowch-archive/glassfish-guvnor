@@ -1,4 +1,16 @@
 repositories:
+  remote:
+   - http://repo.fire.dse.vic.gov.au/content/groups/fisg
+   - http://repo1.maven.org/maven2
   release_to:
     url: http://repo.fire.dse.vic.gov.au/content/repositories/releases/
     username: upload
+
+artifacts:
+  slf4j_api: org.slf4j:slf4j-api:jar:1.6.1
+  picketlink_idm_api: org.picketlink.idm:picketlink-idm-api:jar:1.3.1.GA
+  picketlink_idm_core: org.picketlink.idm:picketlink-idm-core:jar:1.3.1.GA
+  javax_inject: javax.inject:javax.inject:jar:1
+  seam_security_api: org.jboss.seam.security:seam-security-api:jar:3.1.0.Final
+  seam_security: org.jboss.seam.security:seam-security:jar:3.1.0.Final
+  glassfish_security: org.glassfish.security:security:jar:3.1.1
