@@ -35,7 +35,7 @@ public class JaasAuthenticator
     boolean success;
     try
     {
-      success = login.login( username, passwordCredential.getValue(), "s", true );
+      success = login.login( username, passwordCredential.getValue().toCharArray() );
     }
     catch ( final Exception e )
     {
